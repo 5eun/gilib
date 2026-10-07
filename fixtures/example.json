@@ -1,0 +1,29 @@
+{
+  "target_date": "2026-01-02",
+  "auth": "ok",
+  "structure": "ok",
+  "facilities": [
+    {
+      "id": "example-a",
+      "name": "Example Study Room A",
+      "status": "success",
+      "observations": [
+        {
+          "start_at": "2026-01-02T09:00:00+09:00",
+          "end_at": "2026-01-02T10:00:00+09:00",
+          "department_raw": "Example Department",
+          "department_normalized": "Example Department",
+          "student_level": "UNKNOWN",
+          "source_reservation_id": "fixture-only-001",
+          "source_status": "BOOKED"
+        }
+      ]
+    },
+    {
+      "id": "example-b",
+      "name": "Example Study Room B",
+      "status": "empty",
+      "observations": []
+    }
+  ]
+}
