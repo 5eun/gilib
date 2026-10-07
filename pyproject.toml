@@ -1,0 +1,57 @@
+[project]
+name = "gist-studyroom"
+version = "0.1.0"
+description = "Fixture-first GIST Study Room observation collector"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "playwright>=1.58",
+    "tzdata>=2025.2",
+]
+
+[project.scripts]
+gist-studyroom = "gist_studyroom.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.9,<0.12"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "basedpyright>=1.37",
+    "pytest>=9.0",
+    "ruff>=0.14",
+]
+
+[tool.basedpyright]
+typeCheckingMode = "all"
+pythonVersion = "3.14"
+pythonPlatform = "All"
+include = ["src", "tests"]
+reportUnusedCallResult = "none"
+reportAny = "none"
+reportUnknownArgumentType = "none"
+reportUnknownMemberType = "none"
+reportUnknownVariableType = "none"
+reportUnannotatedClassAttribute = "none"
+reportImplicitOverride = "none"
+reportMissingSuperCall = "none"
+reportPrivateUsage = "none"
+reportUnusedImport = "none"
+
+[tool.ruff]
+target-version = "py314"
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["E501"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = ["D", "PLR2004", "S101"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = ["-ra", "--strict-config", "--strict-markers"]
+filterwarnings = ["error"]

@@ -1,0 +1,158 @@
+[site]
+base_url = "https://library.gist.ac.kr"
+reservations_url = "https://library.gist.ac.kr/#/facilityReservation"
+api_url = "https://library.gist.ac.kr:8443"
+
+[paths]
+live_db = "data/live.sqlite3"
+fixture_db = "data/fixture.sqlite3"
+auth_state = "private/auth-state.json"
+api_token = "private/access-token"
+exports_dir = "data/exports"
+backups_dir = "data/backups"
+lock_file = "private/collector.lock"
+log_file = "private/collector.log"
+
+[study]
+start_date = ""
+duration_days = 60
+max_lag_hours = 26
+
+[collection]
+request_timeout_seconds = 30
+max_retries = 2
+
+[department_normalization]
+
+[[facilities]]
+id = "108"
+name = "1F, Mini Theater(for 50 people), Room 108 (108)"
+[[facilities]]
+id = "110"
+name = "1F, Exhibition Hall, Room 110 (110)"
+[[facilities]]
+id = "202"
+name = "2F, Group Study Rooms(for 8 people), Room 202-204 (202)"
+[[facilities]]
+id = "203"
+name = "2F, Group Study Rooms(for 8 people), Room 202-204 (203)"
+[[facilities]]
+id = "204"
+name = "2F, Group Study Rooms(for 8 people), Room 202-204 (204)"
+[[facilities]]
+id = "205"
+name = "2F, Group Study Rooms(for 5 people), Room 205-210 (205)"
+[[facilities]]
+id = "206"
+name = "2F, Group Study Rooms(for 5 people), Room 205-210 (206)"
+[[facilities]]
+id = "207"
+name = "2F, Group Study Rooms(for 5 people), Room 205-210 (207)"
+[[facilities]]
+id = "208"
+name = "2F, Group Study Rooms(for 5 people), Room 205-210 (208)"
+[[facilities]]
+id = "209"
+name = "2F, Group Study Rooms(for 5 people), Room 205-210 (209)"
+[[facilities]]
+id = "210"
+name = "2F, Group Study Rooms(for 5 people), Room 205-210 (210)"
+[[facilities]]
+id = "219"
+name = "2F, Small-sized Carrels, Rooms 219-236 (219)"
+[[facilities]]
+id = "220"
+name = "2F, Small-sized Carrels, Rooms 219-236 (220)"
+[[facilities]]
+id = "221"
+name = "2F, Small-sized Carrels, Rooms 219-236 (221)"
+[[facilities]]
+id = "222"
+name = "2F, Small-sized Carrels, Rooms 219-236 (222)"
+[[facilities]]
+id = "223"
+name = "2F, Small-sized Carrels, Rooms 219-236 (223)"
+[[facilities]]
+id = "224"
+name = "2F, Small-sized Carrels, Rooms 219-236 (224)"
+[[facilities]]
+id = "225"
+name = "2F, Small-sized Carrels, Rooms 219-236 (225)"
+[[facilities]]
+id = "226"
+name = "2F, Small-sized Carrels, Rooms 219-236 (226)"
+[[facilities]]
+id = "227"
+name = "2F, Small-sized Carrels, Rooms 219-236 (227)"
+[[facilities]]
+id = "228"
+name = "2F, Small-sized Carrels, Rooms 219-236 (228)"
+[[facilities]]
+id = "229"
+name = "2F, Small-sized Carrels, Rooms 219-236 (229)"
+[[facilities]]
+id = "230"
+name = "2F, Small-sized Carrels, Rooms 219-236 (230)"
+[[facilities]]
+id = "231"
+name = "2F, Small-sized Carrels, Rooms 219-236 (231)"
+[[facilities]]
+id = "232"
+name = "2F, Small-sized Carrels, Rooms 219-236 (232)"
+[[facilities]]
+id = "233"
+name = "2F, Small-sized Carrels, Rooms 219-236 (233)"
+[[facilities]]
+id = "234"
+name = "2F, Small-sized Carrels, Rooms 219-236 (234)"
+[[facilities]]
+id = "235"
+name = "2F, Small-sized Carrels, Rooms 219-236 (235)"
+[[facilities]]
+id = "236"
+name = "2F, Small-sized Carrels, Rooms 219-236 (236)"
+[[facilities]]
+id = "237"
+name = "2F, Medium-sized Carrels, Rooms 237-240 (237)"
+[[facilities]]
+id = "238"
+name = "2F, Medium-sized Carrels, Rooms 237-240 (238)"
+[[facilities]]
+id = "239"
+name = "2F, Medium-sized Carrels, Rooms 237-240 (239)"
+[[facilities]]
+id = "240"
+name = "2F, Medium-sized Carrels, Rooms 237-240 (240)"
+[[facilities]]
+id = "302"
+name = "3F, Group Study Rooms(for 10 people), Room 302-307 (302)"
+[[facilities]]
+id = "303"
+name = "3F, Group Study Rooms(for 10 people), Room 302-307 (303)"
+[[facilities]]
+id = "304"
+name = "3F, Group Study Rooms(for 10 people), Room 302-307 (304)"
+[[facilities]]
+id = "305"
+name = "3F, Group Study Rooms(for 10 people), Room 302-307 (305)"
+[[facilities]]
+id = "306"
+name = "3F, Group Study Rooms(for 10 people), Room 302-307 (306)"
+[[facilities]]
+id = "307"
+name = "3F, Group Study Rooms(for 10 people), Room 302-307 (307)"
+[[facilities]]
+id = "310"
+name = "3F, Lecture Room(for 30 people), Room 310 (310)"
+[[facilities]]
+id = "406"
+name = "4F, Multi Media Rooms, Rooms 406-409 (406)"
+[[facilities]]
+id = "407"
+name = "4F, Multi Media Rooms, Rooms 406-409 (407)"
+[[facilities]]
+id = "408"
+name = "4F, Multi Media Rooms, Rooms 406-409 (408)"
+[[facilities]]
+id = "409"
+name = "4F, Multi Media Rooms, Rooms 406-409 (409)"
